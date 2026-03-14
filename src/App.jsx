@@ -1,6 +1,7 @@
 import Saudacao from "./components/Saudacao";
 import Botao from "./components/Botao";
 import LinksExternos from "./components/LinksExternos";
+import Contador from "./components/contador";
 
 function App (){
     const nome = 'Érico'
@@ -18,6 +19,9 @@ function App (){
             <div>
                 <LinksExternos site="https://www.google.com.br" nomeSite="Google"/>
                 <LinksExternos site="https://www.youtube.com.br" nomeSite="YouTube"/>
+            </div>
+            <div>
+                <Contador/>
             </div>
         </>
 
