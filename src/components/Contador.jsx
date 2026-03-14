@@ -10,7 +10,7 @@ function Contador() {
     function diminuir (){
         setContador(contador - 1)
     }
-    
+
     return (
     <>
       <h2>Contador: {contador}</h2>

@@ -2,6 +2,7 @@ import Saudacao from "./components/Saudacao";
 import Botao from "./components/Botao";
 import LinksExternos from "./components/LinksExternos";
 import Contador from "./components/contador";
+import FalseLogin from "./components/FalseLogin";
 
 function App (){
     const nome = 'Érico'
@@ -23,6 +24,7 @@ function App (){
             <div>
                 <Contador/>
             </div>
+            <FalseLogin/>
         </>
 
     )
