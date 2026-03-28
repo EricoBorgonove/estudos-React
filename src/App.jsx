@@ -3,6 +3,7 @@ import Botao from "./components/Botao";
 import LinksExternos from "./components/LinksExternos";
 import Contador from "./components/contador";
 import FalseLogin from "./components/FalseLogin";
+import Card from "./components/card/Card"
 import './App.css'
 
 function App (){
@@ -14,6 +15,11 @@ function App (){
             <h1 className="titulo">Olá, {nome} React com Vite</h1>
             <Saudacao/>
             <p>Meu primeiro Componente</p>
+        </div>
+
+        <div className="card-flex">
+            <Card/>
+            <Card/>
         </div>
 
 
