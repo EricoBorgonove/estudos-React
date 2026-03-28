@@ -3,15 +3,19 @@ import Botao from "./components/Botao";
 import LinksExternos from "./components/LinksExternos";
 import Contador from "./components/contador";
 import FalseLogin from "./components/FalseLogin";
+import './App.css'
 
 function App (){
     const nome = 'Érico'
 
     return(
-        <>
-            <h1>Olá, {nome} React com Vite</h1>
+        <div className="container">
+        <div >
+            <h1 className="titulo">Olá, {nome} React com Vite</h1>
             <Saudacao/>
             <p>Meu primeiro Componente</p>
+        </div>
+
 
             <div>
                 <Botao name="entrar" />
@@ -25,7 +29,7 @@ function App (){
                 <Contador/>
             </div>
             <FalseLogin/>
-        </>
+        </div>
 
     )
 }

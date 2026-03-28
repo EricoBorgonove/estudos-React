@@ -1,0 +1,12 @@
+/* estilizar especiacadamente o componente App */
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo{
+    color: darkblue;
+    text-align: center;
+}
