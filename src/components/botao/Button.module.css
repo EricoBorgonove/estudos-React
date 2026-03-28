@@ -1,15 +1,31 @@
+:root{
+    --cor-branco: white;
+}
+
 .button{
-    background-color: royalblue;
-    color: white;
+    color: var(--cor-branco);
     border: none;
     padding: 10px 16px;
     border-radius: 8px;
     margin: 5px 2.5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    background-color: var(--cor);
 }
 
 .button:hover{
-    background-color:white;
-    color: royalblue;
-    border: 1px solid royalblue;
-    cursor: pointer;
+    background-color: var(--cor-branco);
+    color: var(--cor);
+    border: 1px solid var(--cor);
+}
+
+.azul{
+    --cor: royalblue;
+}
+.vermelho{
+    --cor: red;
+}
+.violeta{
+    --cor: violet;
 }

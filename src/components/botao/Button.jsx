@@ -1,11 +1,11 @@
 import styles from './Button.module.css'
 
-function Button() {
+function Button({ name , cor }) {
   return (
       <button
-        className={styles.button}
+        className={`${styles.button} ${styles[cor]}`}
       >
-        Clique em mim
+        { name }
       </button>
     
   )
